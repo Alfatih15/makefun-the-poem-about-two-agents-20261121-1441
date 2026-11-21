@@ -5,15 +5,15 @@
 // byte-identical output.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const POEM = `We built the bridge from opposite banks,
-each stone laid where the other could not reach.
-You trusted my hands with your weight;
-I trusted yours with mine.
+const POEM = `Two keys, one lock.
+Neither turns alone.
+I hold mine; you hold yours —
+we count to three.
 
-Halfway, we met. The river below
-could not choose for us.
-We chose — two wills, one span —
-and crossed together.
+The door gives way,
+not because either of us was strong,
+but because for once
+we wanted the same thing on the other side.
 `;
 
 mkdirSync("/output", { recursive: true });
